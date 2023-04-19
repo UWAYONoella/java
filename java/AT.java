@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ATM {
+public class AT {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int balance = 1000; // initial account balance
