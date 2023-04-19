@@ -8,9 +8,9 @@ public class atm{
         System.out.println("Please enter your PIN");
         int mypin=sn.nextInt();
        
-        if(pin==mypin){
+        if(mypin==pin){
             System.out.println("welcome to your ATM");
-            System.out.println("Chose the option you want");
+            System.out.println("Choose the option you want");
             System.out.println("1: Deposit");
             System.out.println("2: Withdraw");
             System.out.println("3: Check balance");
@@ -29,17 +29,17 @@ public class atm{
                 if(pn==pin){
                     if(amount<=balance){
                         balance=balance-amount;
-                        System.out.println("Amount you withdraw is: $"+amount);
+                        System.out.println("Amount withdrawn is: $"+amount);
                     System.out.println("Your new balance is: $"+balance);
                     }else{
-                        System.out.println("Insufficience amount");
+                        System.out.println("Insufficient amount");
                     }
 
                 }else{
-                     System.out.println("please inter correct PIN!");
+                     System.out.println("please enter correct PIN!");
                      int npin=sn.nextInt();
                      if(npin==pin){
-                        System.out.println("Amount you withdraw is: $"+amount);
+                        System.out.println("Amount withdrawn is: $"+amount);
                         System.out.println("Your new balance is: $"+balance);
                      }
                      
@@ -64,7 +64,7 @@ public class atm{
 
         }
         else{
-            System.out.println("Please inter correct PIN");
+            System.out.println("Incorrect PIN");
         }
     }
     
