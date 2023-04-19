@@ -25,6 +25,18 @@ public class hello{
         else if (marks>=70 && marks<80){
          System.out.println("B grade");    
         }
+    int k = 5;
+    int j = k++;
+    int n = k--;
+    int m = ++k;
+    int e = --k;
+
+    System.out.println("the value of a is:"+k);
+    System.out.println("the value of b is:"+j);
+    System.out.println("the value of c is:"+n);
+    System.out.println("the value of d is:"+m);
+    System.out.println("the value of beis:"+e);
+
         
     }
 }
