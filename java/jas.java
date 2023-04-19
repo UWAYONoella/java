@@ -6,8 +6,12 @@ public class jas {
         //     System.out.println(i);
 
         for(int b=1; b<=12; b++){
-            int mult =2*b;
-            System.out.println(2+"*"+b +"="+ mult);
+            for(int m=1; m<=12; m++){
+                int mult =m*b;
+            System.out.print(m+"*"+b +"="+ mult+" ");
+
+            }
+            System.out.println("  ");
         }
 
         } 
