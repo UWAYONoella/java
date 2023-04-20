@@ -5,6 +5,10 @@ public class scn {
         System.out.print("Enter your name: ");
         String name=scanner.nextLine();
         System.out.println("Hello, " + name + "!");
+        for(int i=1; i<10; i--){
+            System.out.println(i);
+        }
+        
 
     }
 }
