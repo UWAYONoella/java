@@ -7,6 +7,9 @@ public class scn {
         System.out.println("Hello, " + name + "!");
         for(int i=1; i<10; i--){
             System.out.println(i);
+            if(i==-20){
+                break;
+            }
         }
         
 
